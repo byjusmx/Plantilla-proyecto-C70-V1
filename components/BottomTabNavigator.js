@@ -18,28 +18,28 @@ export default class BottomTabNavigator extends Component {
             tabBarIcon: ({ focused, color, size }) => {
               let iconName;
 
-              // if (route === "Ride") {
-              //   iconName = "bicycle";
-              // } else if (route === "Ride History") {
-              //   iconName = "time";
+              // if (route === "Viaje") {
+              //   iconName = "bicicleta";
+              // } else if (route === "Historial de Viajes") {
+              //   iconName = "tiempo";
               // }
 
-              // if (route.name = "Ride") {
-              //   iconName = "bicycle";
-              // } else if (route.name = "Ride History") {
-              //   iconName = "time";
+              // if (route.name = "Viaje") {
+              //   iconName = "bicicleta";
+              // } else if (route.name = "Historial de Viajes") {
+              //   iconName = "tiempo";
               // }
 
-              // if (route.name === Ride) {
-              //   iconName = "bicycle";
-              // } else if (route.name === Ride History) {
-              //   iconName = "time";
+              // if (route.name === Viaje) {
+              //   iconName = "bicicleta";
+              // } else if (route.name === Historial de Viajes) {
+              //   iconName = "tiempo";
               // }
 
-              // if (route.name === "Ride") {
-              //   iconName = "bicycle";
-              // } else if (route.name === "Ride History") {
-              //   iconName = "time";
+              // if (route.name === "Viaje") {
+              //   iconName = "bicicleta";
+              // } else if (route.name === "Historial de Viajes") {
+              //   iconName = "tiempo";
               // }
 
               return (
@@ -71,8 +71,8 @@ export default class BottomTabNavigator extends Component {
             }
           }}
         >
-          <Tab.Screen name="Ride" component={RideScreen} />
-          <Tab.Screen name="Ride History" component={RideHistoryScreen} />
+          <Tab.Screen name="Viaje" component={RideScreen} />
+          <Tab.Screen name="Historial de Viajes" component={RideHistoryScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     );
