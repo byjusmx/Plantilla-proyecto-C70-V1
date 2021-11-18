@@ -19,27 +19,27 @@ export default class BottomTabNavigator extends Component {
               let iconName;
 
               // if (route === "Viaje") {
-              //   iconName = "bicicleta";
+              //   iconName = "bicycle";
               // } else if (route === "Historial de Viajes") {
-              //   iconName = "tiempo";
+              //   iconName = "time";
               // }
 
               // if (route.name = "Viaje") {
-              //   iconName = "bicicleta";
+              //   iconName = "bicycle";
               // } else if (route.name = "Historial de Viajes") {
-              //   iconName = "tiempo";
+              //   iconName = "time";
               // }
 
               // if (route.name === Viaje) {
-              //   iconName = "bicicleta";
+              //   iconName = "bicycle";
               // } else if (route.name === Historial de Viajes) {
-              //   iconName = "tiempo";
+              //   iconName = "time";
               // }
 
               // if (route.name === "Viaje") {
-              //   iconName = "bicicleta";
+              //   iconName = "bicycle";
               // } else if (route.name === "Historial de Viajes") {
-              //   iconName = "tiempo";
+              //   iconName = "time";
               // }
 
               return (
